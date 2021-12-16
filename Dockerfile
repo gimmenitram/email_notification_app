@@ -6,6 +6,4 @@ WORKDIR /home/pyapp
 
 COPY sendmail.py .
 
-ENTRYPOINT [ "python3" ]
-
-CMD [ "sendmail.py" ]
+CMD [ "python3", "sendmail.py" ]
